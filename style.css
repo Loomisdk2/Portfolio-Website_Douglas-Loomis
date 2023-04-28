@@ -36,8 +36,9 @@ footer {
 /* Element */
 
 /* This is my profile pic */
-img, iframe { 
-  width: 100%;	
+img { 
+  max-width: 500px;  
+  height: auto;
   border-radius: 10px;
   border: 1px solid #c5c0b8;
   display: block;
