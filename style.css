@@ -19,9 +19,6 @@ section {
 header {
   height: 170px;
   line-height: 30px;
-  margin: 0px;
-  border: 0px;
-  padding: 0px 0px;
   background-image:url(images/background/head-foot-background.jpeg);
 }
 
@@ -29,7 +26,6 @@ footer {
   height: 70px;
   line-height: 70px;
   background-image:url(images/background/head-foot-background.jpeg);
-   
   border-block-color: black;
 }
 
@@ -37,7 +33,7 @@ footer {
 
 /* This is my profile pic */
 img { 
-  max-width: 500px;  
+  max-width: 300px;  
   height: auto;
   border-radius: 10px;
   border: 1px solid #c5c0b8;
@@ -72,7 +68,7 @@ header h2 {
 
 /* Type */ 
 
-h1, h2 {
+h1, h2, h3 {
   font-family: symbol, tahoma;
   color: black;
   text-align: center;
@@ -81,6 +77,9 @@ h1, h2 {
 h1 { font-size: 28px;}
 h2 { font-size: 20px;}
 
+h3 { padding-top: 50px;}
+
+/* 'li' is for the lists. */
 p, li {
   font-family: symbol, tahoma;
   line-height: 1.5em;
@@ -94,6 +93,7 @@ footer p {
   line-height: 70px;
 }
 
+/* These are the links */
 a {
 	font-weight: 500;
 	text-decoration: none;	
@@ -108,7 +108,15 @@ a:hover {
 
 /* Modifier Styles */ 
 
+/* This is assigned to the lines seperating the sections. Be careful. They're tricky! */
 .border-top {
-  padding-top: 80px;
+  border: 1px solid #403933;
+  padding-top: 0px;
   border-top: 2px solid #403933;
 }
+
+/* These are for reference...
+margin: (top)0px (R)0px (bottom)0px, (L)0px;
+border: 0px or 0em or 0%;
+padding: 0px 0 0 0; 
+*/
